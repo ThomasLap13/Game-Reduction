@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Game Réduction</title>
+    <link rel="stylesheet" href="styles/auth.css">
+</head>
+<body>
+
+    <!-- Header / Menu de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulaire d'inscription -->
+    <section class="auth-section">
+        <h2>Créer un compte</h2>
+        <form id="register-form">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required placeholder="Votre email">
+
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password" required placeholder="Votre mot de passe">
+
+            <label for="confirm-password">Confirmer le mot de passe :</label>
+            <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirmez votre mot de passe">
+
+            <button type="submit" class="btn-submit">S'inscrire</button>
+        </form>
+        <p>Vous avez déjà un compte ? <a href="login.html">Connectez-vous ici</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Game Réduction. Tous droits réservés.</p>
+    </footer>
+
+    <script src="scripts/auth.js"></script>
+</body>
+</html>

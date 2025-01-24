@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique - Game Réduction</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/shop.css">
+</head>
+<body>
+
+    <!-- Header / Menu de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Filtres de produits -->
+    <section class="filters">
+        <h2>Filtres</h2>
+        <form id="filters-form">
+            <label for="category">Catégorie :</label>
+            <select id="category">
+                <option value="all">Tous</option>
+                <option value="games">Jeux</option>
+                <option value="accessories">Accessoires</option>
+            </select>
+
+            <label for="price">Prix :</label>
+            <input type="range" id="price" min="0" max="1000" step="10">
+            <span id="price-value">0€</span>
+
+            <button type="submit" class="btn-apply">Appliquer</button>
+        </form>
+    </section>
+
+    <!-- Grille de produits -->
+    <section class="product-grid">
+        <h2>Nos produits</h2>
+        <div class="product-card">
+            <img src="images/product1.jpg" alt="Produit 1">
+            <h3>Jeu Vidéo 1</h3>
+            <p>Prix : 50€</p>
+            <button class="btn-add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/product2.jpg" alt="Produit 2">
+            <h3>Accessoire 1</h3>
+            <p>Prix : 20€</p>
+            <button class="btn-add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <img src="images/product3.jpg" alt="Produit 3">
+            <h3>Jeu Vidéo 2</h3>
+            <p>Prix : 40€</p>
+            <button class="btn-add-to-cart">Ajouter au panier</button>
+        </div>
+
+        <!-- Plus de produits... -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Game Réduction. Tous droits réservés.</p>
+    </footer>
+
+    <script src="scripts/shop.js"></script>
+</body>
+</html>

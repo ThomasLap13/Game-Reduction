@@ -1,0 +1,64 @@
+/* Formulaire de connexion/inscription */
+.auth-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.auth-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #32a852;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #27863c;
+}
+
+.auth-container .error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.auth-container .link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.auth-container .link a {
+    color: #32a852;
+    text-decoration: none;
+}
+
+.auth-container .link a:hover {
+    text-decoration: underline;
+}

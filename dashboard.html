@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - Game Réduction</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+
+    <!-- Header / Menu de navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" id="logout">Se déconnecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tableau de bord -->
+    <section class="dashboard">
+        <h2>Bienvenue, [Nom de l'utilisateur]</h2>
+
+        <!-- Informations personnelles -->
+        <section class="user-info">
+            <h3>Informations personnelles</h3>
+            <p>Email : [email@example.com]</p>
+            <p>Nom : [Nom de l'utilisateur]</p>
+            <button class="btn-edit">Modifier mes informations</button>
+        </section>
+
+        <!-- Historique des commandes -->
+        <section class="order-history">
+            <h3>Historique des commandes</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numéro de commande</th>
+                        <th>Date</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>12/01/2025</td>
+                        <td>80€</td>
+                        <td>Livré</td>
+                    </tr>
+                    <tr>
+                        <td>#12346</td>
+                        <td>14/01/2025</td>
+                        <td>120€</td>
+                        <td>En cours</td>
+                    </tr>
+                    <!-- Plus de commandes ici -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Game Réduction. Tous droits réservés.</p>
+        </footer>
+    </section>
+
+    <script src="scripts/dashboard.js"></script>
+</body>
+</html>
