@@ -1,0 +1,410 @@
+/* ==============================
+   Styles Globaux
+   ============================== */
+   body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-image: url("Sources/backgrounds.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* ==============================
+     En-tête (Header)
+     ============================== */
+  header {
+    background-color: rgba(255, 255, 255, 0.578);
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+  
+  /* ==============================
+   Navigation (Modification pour mobile)
+   ============================== */
+   ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrer les liens */
+    flex-wrap: wrap; /* Permet aux éléments de se mettre sur plusieurs lignes si nécessaire */
+  }
+  
+  li {
+    margin: 5px; /* Réduit l'espacement entre les liens */
+  }
+
+  li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  li a:hover, li a:focus {
+    background-color: #4370eb;
+    color: white;
+  }
+
+  .active {
+    background-color: #4370eb;
+    color: white;
+  }
+  
+  /* ==============================
+     Section Principale
+     ============================== */
+  section {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  section h2, section h3, section p, section ul li {
+    color: #ffffff;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  section h3 {
+    font-size: 0.75em;
+    margin-top: 3px;
+  }
+  
+  section p, section ul li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* ==============================
+     Boutons
+     ============================== */
+  button {
+    background-color: #4370ebd6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 1.1em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+  }
+  
+  button:hover, button:focus {
+    background-color: #4370eb;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  /* ==============================
+     Pied de Page (Footer)
+     ============================== */
+  footer {
+    background-color: rgba(255, 255, 255, 0.281);
+    color: #ffffff;
+    padding: 5px;
+    box-shadow: 0 -4px 6px rgba(197, 197, 197, 0.1);
+    margin-top: auto;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  footer small, footer a {
+    font-size: 1em;
+    color: #ffffff;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==============================
+     Media Queries (pour mobiles)
+     ============================== */
+     @media (max-width: 768px) {
+      header h1 { 
+        font-size: 2em; 
+      }
+  
+      ul {
+        flex-direction: column; /* Empiler les liens verticalement */
+        align-items: center; /* Centrer les éléments */
+      }
+  
+      li {
+        margin: 10px 0; /* Augmente l'espacement vertical entre les éléments */
+      }
+  
+      li a { 
+        font-size: 1.1em; 
+        padding: 12px 20px; /* Agrandir les boutons pour plus de clic */
+      }
+  
+      section h2, section h3 { 
+        font-size: 1.8em; 
+      }
+  
+      button { 
+        padding: 12px 20px; 
+        font-size: 1em; 
+      }
+    }
+  
+  /* ==============================
+     Onglets (Tab)
+     ============================== */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: 14px 50px;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: #4370eb;
+  }
+  
+  .tab button.active {
+    background-color: #4370eb;
+    color: white;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    color: #ffffff;
+  }
+  
+  /* ==============================
+     Accordéon (Fixer les dépassements)
+     ============================== */
+     .accordion-content {
+      padding: 0 18px;
+      background-color: rgba(112, 112, 112, 0.744);
+      border-radius: 8px;
+      width: auto; /* S'assurer que l'accordion ne dépasse pas */
+      max-width: 100%; /* Empêche la largeur de dépasser de l'écran */
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+
+    .accordion-content-gallerie {
+      padding: 0 18px;
+      background-color: rgba(112, 112, 112, 0.744);
+      border-radius: 8px;
+      width: auto; /* S'assurer que l'accordion ne dépasse pas */
+      max-width: 100%; /* Empêche la largeur de dépasser de l'écran */
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 1s ease-out;
+    }
+  
+    .accordion-header {
+      background-color: rgba(255, 255, 255, 0.281);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 18px;
+      width: auto; /* Empêche de dépasser */
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+  
+    .accordion-header:hover {
+      background-color: rgba(166, 166, 166, 0.6);
+    }
+  
+  /* ==============================
+     Images
+     ============================== */
+  .pp {
+    max-width: 15%;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+  }
+  
+  /* ==============================
+     Liens Non Stylés
+     ============================== */
+  .unstyled-link {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  /* ==============================
+     Carrousel
+     ============================== */
+  .davinci-carousel-container, .pc-carousel-container, .scolaire-carousel-container, .perso-carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .davinci-carousel, .pc-carousel, .scolaire-carousel, .perso-carousel {
+    display: flex;
+    position: relative;
+  }
+  
+  .davinci-carousel-image, .pc-carousel-image, .scolaire-carousel-image, .perso-carousel-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .davinci-carousel-image.active, .pc-carousel-image.active, .scolaire-carousel-image.active, .perso-carousel-image.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .davinci-fade-overlay, .pc-fade-overlay, .scolaire-fade-overlay, .perso-fade-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1;
+  }
+  
+  .davinci-carousel-btn, .pc-carousel-btn, .scolaire-carousel-btn, .perso-carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .davinci-carousel-btn:hover, .pc-carousel-btn:hover, .scolaire-carousel-btn:hover, .perso-carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.737);
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  /* ==============================
+     Section Galerie Photo Supplémentaire
+     ============================== */
+  .additional-photo-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .additional-photo-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .photo-item {
+    width: 100%;
+    max-width: auto;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .photo-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ==============================
+     Divers
+     ============================== */
+  .background-paragraph {
+    background-color: rgba(119, 119, 119, 0.804);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(112, 112, 112, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .cta-button:hover {
+    background-color: #dddddd9c;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
