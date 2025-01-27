@@ -408,3 +408,54 @@
     z-index: 1000;
   }
   
+  /* ==============================
+   Galerie Photo (Ajoutée)
+   ============================== */
+   .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .gallery-item {
+    background-color: rgba(112, 112, 112, 0.744);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
+  }
+  
+  .gallery-item:hover {
+    transform: scale(1.05); /* Applique un léger zoom au survol de l'élément */
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease; /* Transition pour l'effet de zoom sur l'image */
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1); /* Applique un zoom spécifique à l'image */
+  }
+  
+  .gallery-item h3 {
+    font-size: 1.2rem;
+    color: white; /* Changer la couleur du titre en blanc */
+    margin-bottom: 8px;
+  }
+  
+  .gallery-item p {
+    font-size: 0.9rem;
+    color: white; /* Changer la couleur du texte en blanc */
+  }
+  
+  .offers-container .offer p {
+    color: white; /* Assurez-vous que le texte des offres est aussi en blanc */
+  }
+  
