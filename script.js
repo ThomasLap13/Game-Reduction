@@ -131,3 +131,20 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeCarousel(carouselClass);
   });
 });
+
+let lastScrollTop = 0;
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+    const scrollTop = window.scrollY;
+
+    if (scrollTop > lastScrollTop) {
+        // Scroll vers le bas, masque le header
+        header.classList.add("hidden");
+    } else {
+        // Scroll vers le haut, affiche le header
+        header.classList.remove("hidden");
+    }
+
+    lastScrollTop = scrollTop;
+});
