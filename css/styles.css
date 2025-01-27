@@ -3,7 +3,7 @@
     ============================== */
     body {
       font-family: 'Poppins', Arial, sans-serif;
-      background-image: url("images/da/backgound.jpg");
+      background-image: url("da/backgound.jpg");
       background-size: cover;
       background-attachment: fixed;
       color: #333;
@@ -500,3 +500,34 @@
     color: white; /* Assurez-vous que le texte des offres est aussi en blanc */
   }
   
+  /* Personnalisation de la scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Largeur de la scrollbar */
+  height: 12px; /* Hauteur de la scrollbar horizontale */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4CAF50; /* Couleur du "pouce" (partie déplaçable) */
+  border-radius: 10px; /* Bords arrondis */
+  border: 3px solid #fff; /* Bord blanc autour du pouce */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Ombre douce autour du pouce */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f12d; /* Couleur du fond de la scrollbar */
+  border-radius: 10px; /* Bords arrondis de la piste */
+}
+
+::-webkit-scrollbar-button {
+  background-color: transparent; /* Pas de bouton visible sur les flèches */
+}
+
+/* Si tu veux une scrollbar horizontale personnalisée */
+::-webkit-scrollbar-horizontal {
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #4CAF50;
+  border-radius: 10px;
+}

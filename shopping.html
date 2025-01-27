@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Game Réduction - Accueil</title>
-    <link rel="shortcut icon" href="images/da/pp.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
+    <title>Game Réduction - Shopping</title>
+    <link rel="shortcut icon" href="css/da/pp.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-shop.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 
@@ -24,7 +25,7 @@
             <p>Discord, Supercell, Abonnement.</p>
         </div>
         <a href="index.html">
-            <img src="images/da/pp.jpg" alt="Thomas Lapierre" class="profile-img">
+            <img src="css/da/pp.jpg" alt="Game Réduction" class="profile-img">
         </a>
     </header>
 
@@ -33,37 +34,43 @@
             <h2>Discord</h2>
             <hr>
             <div class="offers-container">
-            <div class="gallery">
-                <div class="gallery-item">
-                    <img src="images/discord/Discord-Nitro-Boost.png" alt="Service Discord Nitro Boost">
-                    <h3>Discord Nitro Boost<br>1 Mois</h3>
-                    <p>Abonnements 1 mois pour booster votre serveur Discord.</p>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/discord/Discord-Nitro-Boost.png" alt="Service Discord Nitro Boost">
+                        <h3>Discord Nitro Boost<br>1 Mois</h3>
+                        <p>Abonnements 1 mois pour booster votre serveur Discord.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/discord/Discord-Nitro-Boost.png" alt="Service Discord Nitro Boost">
+                        <h3>Discord Nitro Boost<br>1 An</h3>
+                        <p>Abonnements 1 an pour booster votre serveur Discord.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/discord/Discord-boost.jpg" alt="Service Discord Nitro Boost">
+                        <h3>Discord Boost<br>1 Mois</h3>
+                        <p>Boost d'un mois pour avoir les avantages Nitro.<br>Nombres de boost a la demande.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/discord/Discord-Nitro-Basic.png" alt="Service Discord Nitro Boost">
+                        <h3>Discord Nitro Basique<br>1 Mois</h3>
+                        <p>Abonnements 1 mois pour avoir les avantages Nitro.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/discord/Discord-Nitro-Basic.png" alt="Service Discord Nitro Boost">
+                        <h3>Discord Nitro Basique<br>1 An</h3>
+                        <p>Abonnements 1 an pour avoir les avantages Nitro.</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/discord/Discord-déco.jpg" alt="Service Discord Nitro Boost">
+                        <h3>Discord Décorations de profils</h3>
+                        <p>Décorations Discord a la demande.</p>
+                    </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="images/discord/Discord-Nitro-Boost.png" alt="Service Discord Nitro Boost">
-                    <h3>Discord Nitro Boost<br>1 An</h3>
-                    <p>Abonnements 1 an pour booster votre serveur Discord.</p>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/discord/Discord-boost.jpg" alt="Service Discord Nitro Boost">
-                    <h3>Discord Boost<br>1 Mois</h3>
-                    <p>Boost d'un mois pour avoir les avantages Nitro.<br>Nombres de boost a la demande.</p>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/discord/Discord-Nitro-Basic.png" alt="Service Discord Nitro Boost">
-                    <h3>Discord Nitro Basique<br>1 Mois</h3>
-                    <p>Abonnements 1 mois pour avoir les avantages Nitro.</p>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/discord/Discord-Nitro-Basic.png" alt="Service Discord Nitro Boost">
-                    <h3>Discord Nitro Basique<br>1 An</h3>
-                    <p>Abonnements 1 an pour avoir les avantages Nitro.</p>
-                </div>
-                <div class="gallery-item">
-                    <img src="images/discord/Discord-déco.jpg" alt="Service Discord Nitro Boost">
-                    <h3>Discord Décorations de profils</h3>
-                    <p>Décorations Discord a la demande.</p>
-                </div>
+            </div>
+            <!-- Lightbox -->
+            <div class="lightbox" id="lightbox">
+                <span class="close" id="lightbox-close">&times;</span>
+                <img id="lightbox-image" src="" alt="Image en grand">
             </div>
         </div>
         <br><br><br>
@@ -71,24 +78,34 @@
             <hr>
             <div class="gallery">
                 <div class="gallery-item">
-                    <img src="images/discord-nitro.jpg" alt="Service Discord Nitro Boost">
-                    <h3>Discord Nitro Boost</h3>
-                    <p>Abonnements d'1 mois ou 1 an pour booster votre serveur Discord.</p>
+                    <img src="images/supercell/BS-Pass-Diams.jpg" alt="Service Supercell">
+                    <h3>Braw Stars</h3>
+                    <h3>Pass Diamant</h3>
+                    <p>Abonnements d'1 mois.</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/youtube-premium.jpg" alt="Service YouTube Premium">
-                    <h3>YouTube Premium</h3>
-                    <p>Profitez d'un abonnement 1 mois pour regarder vos vidéos sans publicité.</p>
+                    <img src="images/supercell/BS-Pass-Gold.jpg" alt="Service Supercell">
+                    <h3>Braw Stars</h3>
+                    <h3>Pass Gold</h3>
+                    <p>Abonnements d'1 mois.</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/crunchyroll.jpg" alt="Service Crunchyroll">
-                    <h3>Crunchyroll</h3>
-                    <p>Accédez à vos animes préférés avec un abonnement 1 mois.</p>
+                    <img src="images/supercell/BS-Ressources.jpg" alt="Service Supercell">
+                    <h3>Braw Stars</h3>
+                    <h3>Ressources</h3>
+                    <p>A la demande.</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="images/supercell-pass.jpg" alt="Service Supercell Pass">
-                    <h3>Supercell Pass</h3>
-                    <p>Obtenez des pass spéciaux pour vos jeux Supercell entre 2017 et 2021.</p>
+                    <img src="images/supercell/CC-Pass-Event.jpg" alt="Service Supercell">
+                    <h3>Clash Of Clans</h3>
+                    <h3>Pass Evenement</h3>
+                    <p>Abonnements d'1 mois.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/supercell/CC-Pass-Gold.jpg" alt="Service Supercell">
+                    <h3>Clash Of Clans</h3>
+                    <h3>Pass Gold</h3>
+                    <p>Abonnements d'1 mois.</p>
                 </div>
             </div>
         </section>
@@ -103,7 +120,8 @@
         </div>
     </footer>    
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/shop.js+"></script>
 </body>
 
 </html>
