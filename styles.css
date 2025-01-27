@@ -1,24 +1,24 @@
-/* ==============================
-   Styles Globaux
-   ============================== */
-   body {
-    font-family: 'Poppins', Arial, sans-serif;
-    background-image: url("images/da/backgound.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    text-align: center;
-  }
-  
   /* ==============================
-     En-tête (Header)
-     ============================== */
-     header {
+    Styles Globaux
+    ============================== */
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      background-image: url("images/da/backgound.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+  }
+
+  /* ==============================
+    En-tête (Header)
+    ============================== */
+  header {
       background-color: rgba(94, 88, 88, 0.578);
       color: #ffffff;
       padding: 20px;
@@ -29,53 +29,88 @@
       backdrop-filter: blur(10px);
       transition: transform 0.3s ease-in-out;
   }
-  
+
   header.hidden {
       transform: translateY(-100%);
   }
-  
+
   header h1 {
       margin: 0;
       font-size: 2.5em;
       font-weight: 600;
+      color: #ffffff; /* Assure que le titre reste blanc */
+  }
+
+  header a {
+      color: #ffffff; /* Blanc constant pour les liens */
+      text-decoration: none;
+  }
+
+  header a:hover,
+  header a:focus,
+  header a:active {
+      color: #ffffff; /* Blanc constant même au survol ou lors du focus */
   }
   
   
   /* ==============================
    Navigation (Modification pour mobile)
    ============================== */
-   ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Centrer les liens */
-    flex-wrap: wrap; /* Permet aux éléments de se mettre sur plusieurs lignes si nécessaire */
-  }
-  
-  li {
-    margin: 5px; /* Réduit l'espacement entre les liens */
-  }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center; /* Centrer les liens */
+      flex-wrap: wrap; /* Permet aux éléments de se mettre sur plusieurs lignes si nécessaire */
+    }
 
-  li a {
-    color: #333;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 1.1em;
-    font-weight: 500;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
+    li {
+      margin: 5px; /* Réduit l'espacement entre les liens */
+    }
 
-  li a:hover, li a:focus {
-    background-color: #0cab24;
-    color: white;
-  }
+    li a {
+      color: #ffffff; /* Fixé à blanc */
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 1.1em;
+      font-weight: 500;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
-  .active {
-    background-color: #008214;
-    color: white;
-  }
+    li a:hover, li a:focus {
+      background-color: #0cab24;
+      color: white;
+    }
+
+    .active {
+      background-color: #008214;
+      color: white;
+    }
+
+    /* ==============================
+    Onglets (Tab)
+    ============================== */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      cursor: pointer;
+      padding: 14px 50px;
+      transition: 0.3s;
+      color: #ffffff; /* Fixé à blanc */
+    }
+
+    .tab button:hover {
+      background-color: #4370eb;
+      color: #ffffff; /* Blanc constant */
+    }
+
+    .tab button.active {
+      background-color: #4370eb;
+      color: #ffffff; /* Blanc constant */
+    }
   
   /* ==============================
      Section Principale
@@ -154,34 +189,34 @@
   }
   
   /* ==============================
-     Media Queries (pour mobiles)
-     ============================== */
-     @media (max-width: 768px) {
-      header h1 { 
-        font-size: 2em; 
+   Media Queries (pour mobiles)
+   ============================== */
+    @media (max-width: 768px) {
+      header h1 {
+          font-size: 2em;
       }
-  
+
       ul {
-        flex-direction: column; /* Empiler les liens verticalement */
-        align-items: center; /* Centrer les éléments */
+          flex-direction: column; /* Empiler les liens verticalement */
+          align-items: center; /* Centrer les éléments */
       }
-  
+
       li {
-        margin: 10px 0; /* Augmente l'espacement vertical entre les éléments */
+          margin: 10px 0; /* Augmente l'espacement vertical entre les éléments */
       }
-  
-      li a { 
-        font-size: 1.1em; 
-        padding: 12px 20px; /* Agrandir les boutons pour plus de clic */
+
+      li a {
+          font-size: 1.1em;
+          padding: 12px 20px; /* Agrandir les boutons pour plus de clic */
       }
-  
-      section h2, section h3 { 
-        font-size: 1.8em; 
+
+      section h2, section h3 {
+          font-size: 1.8em;
       }
-  
-      button { 
-        padding: 12px 20px; 
-        font-size: 1em; 
+
+      button {
+          padding: 12px 20px;
+          font-size: 1em;
       }
     }
   
