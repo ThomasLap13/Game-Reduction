@@ -146,7 +146,7 @@
      Boutons
      ============================== */
   button {
-    background-color: #4370ebd6;
+    background-color: #008214;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -158,7 +158,7 @@
   }
   
   button:hover, button:focus {
-    background-color: #4370eb;
+    background-color: #0cab24;
     transform: scale(1.05);
   }
   
@@ -483,6 +483,24 @@ footer {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
   }
+  .product-paragraph {
+    background-color: rgba(119, 119, 119, 0.804);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-paragraph img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
   
   .cta-button {
     text-decoration: none;
