@@ -1,0 +1,36 @@
+/* ==============================
+    En-tête (Header)
+    ============================== */
+    header {
+        background-color: rgba(94, 88, 88, 0.578);
+        color: #ffffff;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        backdrop-filter: blur(10px);
+        transition: transform 0.3s ease-in-out;
+    }
+  
+    header.hidden {
+        transform: translateY(-100%);
+    }
+  
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        font-weight: 600;
+        color: #ffffff; /* Assure que le titre reste blanc */
+    }
+  
+    header a {
+        color: #ffffff; /* Blanc constant pour les liens */
+        text-decoration: none;
+    }
+  
+    header a:hover,
+    header a:focus,
+    header a:active {
+        color: #ffffff; /* Blanc constant même au survol ou lors du focus */
+    }
