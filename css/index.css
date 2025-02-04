@@ -1,0 +1,133 @@
+.promotion-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Prend toute la hauteur de l'écran */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.promo-content {
+    background: rgba(112, 112, 112, 0.744);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    max-width: 800px; /* Limite la largeur du contenu pour le rendre plus lisible */
+    width: 100%;
+}
+
+.highlight {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.promo-buttons {
+    margin-top: 20px;
+}
+
+.button-blue {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #4CAF50;
+    transition: background-color 0.3s ease;
+}
+
+.button-blue:hover {
+    background-color: #45a049;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #4CAF50;
+}
+
+.social-links img {
+    width: 24px;  /* Ajuste la taille des images */
+    height: 24px; /* Pour que les images soient carrées */
+    margin-right: 10px; /* Espace entre l'image et le texte */
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);  /* Effet de zoom léger au survol */
+}
+
+.testimonials-section {
+    background-color: rgba(112, 112, 112, 0.744);
+    padding: 50px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.testimonials-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.testimonials-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: rgba(112, 112, 112, 0.744);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.stars {
+    color: #ffc107;
+    font-size: 1.2em;
+}

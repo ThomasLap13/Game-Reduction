@@ -82,6 +82,7 @@
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
+    flex-grow: 1;
   }
   
   section h2, section h3, section p, section ul li {
@@ -107,16 +108,17 @@
   /* ==============================
      Boutons
      ============================== */
-  header button {
+    button {
     background-color: #008214;
     color: white;
     border: none;
     padding: 8px 16px;
     font-size: 1.1em;
-    border-radius: 50px;
+    border-radius: 50px; /* Bord arrondi */
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
   }
   
   button:hover, button:focus {
