@@ -129,14 +129,17 @@ h4 {
     font-size: 1.1em;
     margin-bottom: 10px;
 }
-
-/* Responsivité : Footer mobile */
 @media (max-width: 768px) {
-    .footer-container {
-        grid-template-columns: 1fr 1fr; /* Deux colonnes sur mobile */
-    }
-
-    .footer-section {
-        padding: 0 5px;
-    }
+    footer {
+        font-size: 12px;
+}
+    footer-section {
+      font-size: 12px;
+  }
+  footer-links {
+    font-size: 8px;
+  }
+  social-icons {
+    font-size: 1;
+  }
 }

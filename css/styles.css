@@ -13,6 +13,7 @@
       flex-direction: column;
       min-height: 100vh;
       text-align: center;
+      font-size: 16px;
   }
   
   /* ==============================
@@ -160,6 +161,9 @@
           padding: 12px 20px;
           font-size: 1em;
       }
+      body {
+        font-size: 12px;
+    }
     }
   
   /* ==============================
