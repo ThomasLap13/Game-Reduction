@@ -18,9 +18,9 @@
 
 <body>
     <header>
-        <a href="../../shopping.html">
+        <a href="../../shopping.html?category=supercell">
             <img src="../../css/da/retour.png" alt="Retour" class="return-img">
-        </a>
+        </a>        
         <a href="https://game-reduction.fr">
             <img src="../../css/da/pp.jpg" alt="Game Réduction" class="profile-img">
         </a>
@@ -122,6 +122,17 @@
             &copy; 2025 Game Réduction. Tous droits réservés.
         </div>
     </footer>
+    <script>
+        function scrollToSection(category) {
+            // Attendre que la page soit chargée avant de scroller
+            window.onload = function() {
+                const section = document.getElementById(category);
+                if (section) {
+                    section.scrollIntoView({ behavior: "smooth" });
+                }
+            };
+        }
+    </script>
     <script src="js/script.js"></script>
 </body>
 </html>

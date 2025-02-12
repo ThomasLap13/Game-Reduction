@@ -34,11 +34,20 @@
             <h1>Vous voulez acheter ?</h1>
             <p>Discord, Supercell, Abonnement.</p>
         </div>
+        <div class="category-buttons">
+            <buttonhead onclick="scrollToSection('streaming')">Streaming</buttonhead>
+            <buttonhead onclick="scrollToSection('discord')">Discord</buttonhead>
+            <buttonhead onclick="scrollToSection('epic-games')">Epic Games</buttonhead>
+            <buttonhead onclick="scrollToSection('supercell')">Supercell</buttonhead>
+            <buttonhead onclick="scrollToSection('microsoft')">Microsoft</buttonhead>
+            <buttonhead onclick="scrollToSection('nintendo')">Nintendo</buttonhead>
+        </div>
     </header>
 
     <main>
+        
         <!--Streaming-->
-        <section>
+        <section id="streaming">
             <h2>Streaming</h2>
             <hr>
             <div class="offers-container">
@@ -96,7 +105,7 @@
         </section>
 
         <!--Discord-->
-        <section>
+        <section id="discord">
             <h2>Discord</h2>
             <hr>
             <div class="offers-container">
@@ -154,7 +163,7 @@
         </section>
 
         <!--Epic Games-->
-        <section>
+        <section id="epic-games">
             <h2>Epic Games</h2>
             <hr>
             <div class="offers-container">
@@ -183,7 +192,7 @@
         </section>
 
         <!--Supercell-->
-        <section>
+        <section id="supercell">
             <h2>Supercell</h2>
             <hr>
             <div class="offers-container">
@@ -238,7 +247,7 @@
         </section>
 
         <!--Microsoft-->
-        <section>
+        <section id="microsoft">
             <h2>Microsoft</h2>
             <hr>
             <div class="offers-container">
@@ -276,7 +285,7 @@
         </section>
 
         <!--Nintendo-->
-        <section>
+        <section id="nintendo">
             <h2>Nintendo</h2>
             <hr>
             <div class="offers-container">
@@ -363,6 +372,24 @@
             &copy; 2025 Game Réduction. Tous droits réservés.
         </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const params = new URLSearchParams(window.location.search);
+            const category = params.get("category");
+            
+            if (category) {
+                const section = document.getElementById(category);
+                if (section) {
+                    section.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        });
+    </script>    
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>    
     <script src="js/script.js"></script>
 </body>
 </html>

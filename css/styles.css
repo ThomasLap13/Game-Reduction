@@ -522,3 +522,35 @@
   background-color: #4CAF50;
   border-radius: 10px;
 }
+
+.category-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.category-buttons butbuttonheadton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.category-buttons buttonhead:hover {
+  background-color: #45a049;
+}
+
+buttonhead {
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1.1em;
+  border-radius: 50px; /* Bord arrondi */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
+}

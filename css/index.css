@@ -36,11 +36,29 @@
     color: #fff;
     font-weight: bold;
     background-color: #4CAF50;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.2s;
+    animation: pulse 1.5s infinite;
 }
 
 .button-blue:hover {
     background-color: #45a049;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.7);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(76, 175, 80, 0.8);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+    }
 }
 
 .social-links {
