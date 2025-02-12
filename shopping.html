@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Game Réduction - Shopping</title>
+    <title>Shopping - Game Réduction</title>
     <link rel="shortcut icon" href="css/da/pp.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/header.css">
@@ -371,24 +371,7 @@
             &copy; 2025 Game Réduction. Tous droits réservés.
         </div>
     </footer>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const params = new URLSearchParams(window.location.search);
-            const category = params.get("category");
-            
-            if (category) {
-                const section = document.getElementById(category);
-                if (section) {
-                    section.scrollIntoView({ behavior: "smooth" });
-                }
-            }
-        });
-    </script>    
-    <script>
-        function scrollToSection(sectionId) {
-            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-        }
-    </script>    
+    <script src="js/boutique.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
