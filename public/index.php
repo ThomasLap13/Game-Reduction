@@ -1,6 +1,9 @@
 <?php
 include '../includes/header.php';
 ?>
+<head>
+    <title>Accueil - Game Réduction</title>
+</head>
 
 <main>
     <div class="welcome-screen" id="welcomeScreen">
@@ -169,6 +172,7 @@ include '../includes/header.php';
     </div>
 </main>
 
+<script src="../assets/js/scroll.js"></script>
 <?php
 include '../includes/footer.php';
 ?>
