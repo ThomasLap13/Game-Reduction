@@ -3,7 +3,7 @@ include '../includes/header.php';
 ?>
 
 <head>
-    <title>À propos - Game Réduction</title>
+    <title>Comment commander ? - Game Réduction</title>
 </head>
 
 <main>
@@ -32,7 +32,10 @@ include '../includes/header.php';
             <li>Envoyez-le à l'adresse suivante : <span class="btn-copy" onclick="copyEmail()">yt.game-reduction@gmail.com</span></li>
         </ol>
         <p class="text-center">Nous nous engageons à vous répondre dans les plus brefs délais afin de vous offrir la meilleure expérience possible.</p>
-        <button class="btn btn-primary btn-copy" onclick="copyEmail()">Copier l'adresse email</button>
+        <a href="mailto:yt.game-reduction@gmail.com">
+            <i class="fas fa-envelope contact-icon"></i>
+            <p>Email</p>
+        </a>
     </div>
     <br>
     <div class="container mt-5 hidden">
