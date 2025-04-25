@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/avis.css">
+    <link rel="stylesheet" href="../assets/css/tableau.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,11 +33,11 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Shopping</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="../public/shopping/jeux-video.php">Jeux Vidéo</a></li>
-                                <li><a class="dropdown-item" href="../public/shopping/streaming.php">Streaming</a></li>
-                                <li><a class="dropdown-item" href="../public/shopping/microsoft.php">Microsoft</a></li>
-                                <li><a class="dropdown-item" href="../public/shopping/discord.php">Discord</a></li>
-                                <li><a class="dropdown-item" href="../public/shopping/logiciel.php">Logiciel</a></li>
+                                <li><a class="dropdown-item" href="../shopping/jeux-video.php">Jeux Vidéo</a></li>
+                                <li><a class="dropdown-item" href="../shopping/streaming.php">Streaming</a></li>
+                                <li><a class="dropdown-item" href="../shopping/microsoft.php">Microsoft</a></li>
+                                <li><a class="dropdown-item" href="../shopping/discord.php">Discord</a></li>
+                                <li><a class="dropdown-item" href="../shopping/logiciel.php">Logiciel</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="../public/comment-commander.php">Comment commander ?</a></li>
