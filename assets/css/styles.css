@@ -1,0 +1,260 @@
+/* ===================== */
+/* Styles Généraux */
+/* ===================== */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #14281D;
+    color: white;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+
+/* ===================== */
+/* Navbar */
+/* ===================== */
+.navbar {
+    background-color: #14281D;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Logo */
+.navbar-brand img {
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+/* Dropdown Animation */
+/* Masque les menus par défaut avec animation */
+.dropdown-menu {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    display: none;
+}
+
+/* Affichage du menu avec effet fluide */
+.dropdown.show .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    display: block;
+}
+
+/* Effet de disparition fluide */
+.dropdown-menu.fade-out {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-in, transform 0.4s ease-in;
+}
+
+
+/* Dropdown Styles */
+.dropdown-menu {
+    background: rgb(48, 48, 48);
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+}
+
+/* ===================== */
+/* Boutons Personnalisés */
+/* ===================== */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 66, 49, 0.5);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(255, 66, 49, 0.8);
+    }
+}
+
+.btn-custom {
+    background-color: #ff4231;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    animation: pulse 3s infinite;
+}
+
+.btn-custom:hover {
+    background-color: #E65A50;
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ===================== */
+/* Sections */
+/* ===================== */
+.welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("../images/da/backgound.jpg") center/cover no-repeat fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.welcome-screen.hidden {
+    opacity: 0;
+    transform: translateY(-100%);
+    pointer-events: none;
+}
+
+.hero-section {
+    padding-top: 100px;
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ===================== */
+/* Cartes Produits */
+/* ===================== */
+.card {
+    background-color: #1E3D32;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ===================== */
+/* Effet d'Apparition */
+/* ===================== */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 0.6s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===================== */
+/* Responsivité */
+/* ===================== */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .category-menu {
+        top: 70px;
+        padding: 5px 0;
+    }
+
+    .category-menu a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+/* ===================== */
+/* Personnalisation de la Scrollbar */
+/* ===================== */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(241, 241, 241, 0.18);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.18);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-horizontal {
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: rgba(241, 241, 241, 0.18);
+    border-radius: 10px;
+}
+
+.embed-responsive {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    margin: auto;
+    max-width: 800px; /* Limite la largeur maximale */
+}
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 600px) {
+    .embed-responsive {
+        width: 800px;
+        height: 450px;
+        padding-bottom: 0;
+    }
+}
