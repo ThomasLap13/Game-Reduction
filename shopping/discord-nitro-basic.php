@@ -3,7 +3,7 @@ include '../includes/header.php';
 ?>
 
 <head>
-    <title>Nitro Boost - Game Réduction</title>
+    <title>Nitro Basic - Game Réduction</title>
 </head>
 
 <main>
