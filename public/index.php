@@ -22,54 +22,65 @@ include '../includes/header.php';
         <p class="text-center">Game Réduction est une initiative visant à vous aider à économiser sur vos achats numériques.</p>
         <p class="text-center">Notre objectif principal est de vous accompagner dans vos achats en ligne afin de vous faire économiser un maximum d'argent. Nous souhaitons offrir une expérience conviviale et accessible à tous, en mettant l’accent sur la qualité et la proximité.</p>
     </div>    
+
     <div style="min-height: 200px;"></div>
     
-    <div class="container mt-5 hidden" id="offres">
-        <h2 class="text-center">Nos Offres</h2>
-        <hr>
-        <div class="row text-center">
-            <div class="col-md-3 hidden">
-                <div class="card">
-                    <img src="../assets/images/da/Jeux.DA.jpg" class="card-img-top" alt="Jeux Vidéo">
-                    <div class="card-body">
-                        <h5 class="card-title">Jeux Vidéo</h5>
-                        <p class="card-text">Profitez des meilleurs prix sur vos jeux préférés.</p>
-                        <a href="../shopping/jeux-video.php" class="btn btn-custom">Découvrir</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 hidden">
-                <div class="card">
-                    <img src="../assets/images/da/Discord.DA.jpg" class="card-img-top" alt="Microsoft">
-                    <div class="card-body">
-                        <h5 class="card-title">Discord</h5>
-                        <p class="card-text">Bénéficiez d'offres spéciales sur les produits Discord.</p>
-                        <a href="../shopping/discord.php" class="btn btn-custom">Découvrir</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 hidden">
-                <div class="card">
-                    <img src="../assets/images/da/Streaming.DA.jpg" class="card-img-top" alt="Streaming">
-                    <div class="card-body">
-                        <h5 class="card-title">Streaming</h5>
-                        <p class="card-text">Accédez à vos plateformes favorites à prix réduit.</p>
-                        <a href="../shopping/streaming.php" class="btn btn-custom">Découvrir</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 hidden">
-                <div class="card">
-                    <img src="../assets/images/da/Microsoft.DA.jpg" class="card-img-top" alt="Microsoft">
-                    <div class="card-body">
-                        <h5 class="card-title">Microsoft</h5>
-                        <p class="card-text">Bénéficiez d'offres spéciales sur les produits Microsoft.</p>
-                        <a href="../shopping/microsoft.php" class="btn btn-custom">Découvrir</a>
-                    </div>
+    <div class="container mt-5" id="offres">
+    <h2 class="text-center">Nos Offres</h2>
+    <hr>
+    <div class="row justify-content-center text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../assets/images/da/Jeux.DA.jpg" class="card-img-top" alt="Jeux Vidéo">
+                <div class="card-body">
+                    <h5 class="card-title">Jeux Vidéo</h5>
+                    <p class="card-text">Profitez des meilleurs prix sur vos jeux préférés.</p>
+                    <a href="../shopping/jeux-video.php" class="btn btn-custom">Découvrir</a>
                 </div>
             </div>
         </div>
-    </div>    
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../assets/images/da/Discord.DA.jpg" class="card-img-top" alt="Discord">
+                <div class="card-body">
+                    <h5 class="card-title">Discord</h5>
+                    <p class="card-text">Bénéficiez d'offres spéciales sur les produits Discord.</p>
+                    <a href="../shopping/discord.php" class="btn btn-custom">Découvrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../assets/images/da/Streaming.DA.jpg" class="card-img-top" alt="Streaming">
+                <div class="card-body">
+                    <h5 class="card-title">Streaming</h5>
+                    <p class="card-text">Accédez à vos plateformes favorites à prix réduit.</p>
+                    <a href="../shopping/streaming.php" class="btn btn-custom">Découvrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../assets/images/da/Microsoft.DA.jpg" class="card-img-top" alt="Microsoft">
+                <div class="card-body">
+                    <h5 class="card-title">Microsoft</h5>
+                    <p class="card-text">Bénéficiez d'offres spéciales sur les produits Microsoft.</p>
+                    <a href="../shopping/microsoft.php" class="btn btn-custom">Découvrir</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="../assets/images/da/Logiciels.DA.jpg" class="card-img-top" alt="Logiciels">
+                <div class="card-body">
+                    <h5 class="card-title">Logiciels</h5>
+                    <p class="card-text">Bénéficiez d'offres spéciales sur des Logiciels.</p>
+                    <a href="../shopping/logiciels.php" class="btn btn-custom">Découvrir</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div style="min-height: 200px;"></div>
     
     <div class="container mt-5 hidden" id="Avis">
