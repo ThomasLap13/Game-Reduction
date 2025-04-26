@@ -34,7 +34,7 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h5 class="card-title">Jeux Vidéo</h5>
                         <p class="card-text">Profitez des meilleurs prix sur vos jeux préférés.</p>
-                        <a href="./shopping/jeux-video.php" class="btn btn-custom">Découvrir</a>
+                        <a href="../shopping/jeux-video.php" class="btn btn-custom">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h5 class="card-title">Discord</h5>
                         <p class="card-text">Bénéficiez d'offres spéciales sur les produits Discord.</p>
-                        <a href="./shopping/discord.php" class="btn btn-custom">Découvrir</a>
+                        <a href="../shopping/discord.php" class="btn btn-custom">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h5 class="card-title">Streaming</h5>
                         <p class="card-text">Accédez à vos plateformes favorites à prix réduit.</p>
-                        <a href="./shopping/streaming.php" class="btn btn-custom">Découvrir</a>
+                        <a href="../shopping/streaming.php" class="btn btn-custom">Découvrir</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ include '../includes/header.php';
                     <div class="card-body">
                         <h5 class="card-title">Microsoft</h5>
                         <p class="card-text">Bénéficiez d'offres spéciales sur les produits Microsoft.</p>
-                        <a href="./shopping/microsoft.php" class="btn btn-custom">Découvrir</a>
+                        <a href="../shopping/microsoft.php" class="btn btn-custom">Découvrir</a>
                     </div>
                 </div>
             </div>

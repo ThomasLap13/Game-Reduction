@@ -13,14 +13,14 @@
                 <h4>Navigation</h4>
                 <ul class="footer-links">
                     <a href="https://game-reduction.fr" class="footer-link">Accueil</a><br>
-                    <a href="../public/a-propos.php" class="footer-link">À propos</a><br>
-                    <a href="../public/shopping/jeux-video.php" class="footer-link">Jeux vidéo</a><br>
-                    <a href="../public/shopping/streaming.php" class="footer-link">Streaming</a><br>
-                    <a href="../public/shopping/microsoft.php" class="footer-link">Microsoft</a><br>
-                    <a href="../public/shopping/discord.php" class="footer-link">Discord</a><br>
-                    <a href="../public/shopping/logiciel.php" class="footer-link">Logiciel</a><br>
+                    <a href="../a-propos.php" class="footer-link">À propos</a><br>
+                    <a href="../shopping/jeux-video.php" class="footer-link">Jeux vidéo</a><br>
+                    <a href="../shopping/streaming.php" class="footer-link">Streaming</a><br>
+                    <a href="../shopping/microsoft.php" class="footer-link">Microsoft</a><br>
+                    <a href="../shopping/discord.php" class="footer-link">Discord</a><br>
+                    <a href="../shopping/logiciel.php" class="footer-link">Logiciel</a><br>
                     <a href="../public/comment-commander.php" class="footer-link">Comment commander ?</a><br>
-                    <a href="../public//contact.php" class="footer-link">Contact</a><br>
+                    <a href="../public/contact.php" class="footer-link">Contact</a><br>
                 </ul>
             </div>
     
