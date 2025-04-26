@@ -8,6 +8,7 @@ include '../includes/header.php';
 
 <main>
     <div class="container text-center">
+    <div style="min-height: 50px;"></div>
     <h2>ChatGPT Plus - 3 Mois</h2>
     <hr>
     <img src="../assets/images/products/logiciel/gptlogo.png" alt="ChatGPT Plus" class="img-fluid rounded mx-auto d-block custom-image-size"><br>

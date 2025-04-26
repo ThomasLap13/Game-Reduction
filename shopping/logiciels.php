@@ -7,11 +7,11 @@ include '../includes/header.php';
 </head>
 
 <main>
-    <div class="category-section" style="padding-top: 130px;">
+    <div class="category-section" style="padding-top: 30px;">
         <div class="container hidden text-center">
             <h2 class="mb-4">ChatGPT Plus</h2>
             <hr>
-            <h3 class="mb-5">1 Mois, 3 Mois</h3>
+            <h2 class="text-start fade-in">1 Mois, 3 Mois</h2>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">

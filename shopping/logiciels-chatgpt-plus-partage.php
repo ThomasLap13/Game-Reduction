@@ -9,6 +9,7 @@ include '../includes/header.php';
 <main>
     <div class="container text-center">
     <h2>ChatGPT Plus Partagé - 1 Mois</h2>
+    <div style="min-height: 50px;"></div>
     <hr>
     <img src="../assets/images/products/logiciel/gptlogo.png" alt="ChatGPT Plus" class="img-fluid rounded mx-auto d-block custom-image-size mb-4">
     
