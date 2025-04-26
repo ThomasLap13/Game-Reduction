@@ -18,7 +18,7 @@
                     <a href="../shopping/streaming.php" class="footer-link">Streaming</a><br>
                     <a href="../shopping/microsoft.php" class="footer-link">Microsoft</a><br>
                     <a href="../shopping/discord.php" class="footer-link">Discord</a><br>
-                    <a href="../shopping/logiciel.php" class="footer-link">Logiciel</a><br>
+                    <a href="../shopping/logiciels.php" class="footer-link">Logiciels</a><br>
                     <a href="../public/comment-commander.php" class="footer-link">Comment commander ?</a><br>
                     <a href="../public/contact.php" class="footer-link">Contact</a><br>
                 </ul>

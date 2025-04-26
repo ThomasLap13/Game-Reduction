@@ -3,7 +3,7 @@ include '../includes/header.php';
 ?>
 
 <head>
-    <title>À propos - Game Réduction</title>
+    <title>Jeux-Vidéos - Game Réduction</title>
 </head>
 
 <main>

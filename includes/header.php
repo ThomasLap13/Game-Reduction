@@ -37,7 +37,7 @@
                                 <li><a class="dropdown-item" href="../shopping/streaming.php">Streaming</a></li>
                                 <li><a class="dropdown-item" href="../shopping/microsoft.php">Microsoft</a></li>
                                 <li><a class="dropdown-item" href="../shopping/discord.php">Discord</a></li>
-                                <li><a class="dropdown-item" href="../shopping/logiciel.php">Logiciel</a></li>
+                                <li><a class="dropdown-item" href="../shopping/logiciels.php">Logiciels</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="../public/comment-commander.php">Comment commander ?</a></li>

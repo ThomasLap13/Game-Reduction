@@ -22,7 +22,7 @@ include '../includes/header.php';
         <p class="text-center hidden">Dans ce salon, notre équipe est disponible pour répondre à vos questions, vous aider à choisir les produits qui vous conviennent le mieux et finaliser votre commande. N'hésitez pas à décrire précisément ce que vous recherchez et à poser toutes vos questions. Nous sommes là pour vous assister !</p>
     </div>
     <br>
-    <div class="container mt-5 hidden">
+    <div class="container hidden mt-5">
         <h2 class="text-center">Par Email</h2><hr>
         <p class="text-center">Envoyez-nous un message avec les références des produits souhaités, et nous vous répondrons rapidement pour vous guider dans votre achat. Nous sommes à votre disposition pour toute information supplémentaire. N'hésitez pas à nous contacter !</p>
         <p class="text-center">Pour nous contacter, rien de plus simple :</p>
