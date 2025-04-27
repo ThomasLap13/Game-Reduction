@@ -74,7 +74,7 @@ include '../includes/header.php';
                 <img src="../assets/images/da/Logiciels.DA.jpg" class="card-img-top" alt="Logiciels">
                 <div class="card-body">
                     <h5 class="card-title">Logiciels</h5>
-                    <p class="card-text">Bénéficiez d'offres spéciales sur des Logiciels.</p>
+                    <p class="card-text">Bénéficiez d'offres spéciales sur des Logiciels, type ChatGPT ou d'autre abonnement...</p>
                     <a href="../shopping/logiciels.php" class="btn btn-custom">Découvrir</a>
                 </div>
             </div>
