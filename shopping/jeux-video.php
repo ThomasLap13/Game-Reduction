@@ -21,7 +21,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass de combat - Fortnite<br>Saison 2 Chapitre 6</h5><br>
                             <p class="card-text">Déverrouillez de nouvelles apparences réputées en gagnant de l'EXP dans toutes les expériences de Fortnite via cadeau.</p><br>
                             <h5><s>8,99€</s> - 6,99€</h5>
-                            <a href="../products/epic-game/pass-de-combat.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-pass-de-combat.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ include '../includes/header.php';
                             <h5 class="card-title">V-Bucks - Fortnite<br>A la demande</h5><br>
                             <p class="card-text">Optenez 1000, 2800, 5000, 13500 V-Bucks<br> pour votre compte Fortnite.<br>Via second compte.</p><br>
                             <h5>De 6,99€ à 59,99€</h5>
-                            <a href="../products/epic-game/v-bucks.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-v-bucks.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass Pro - Brawl Stars<br>5 Mois</h5><br>
                             <p class="card-text">Débloquez 5 améliorations supplémentaires des skins classés, 600 gemmes, et pleins d'autres récompenses supplémentaires !</p><br>
                             <h5><s>29,99€</s> - 25,49€</h5>
-                            <a href="../products/supercell/brawl-stars-pass-pro.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-brawl-stars-pass-pro.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass Brawl Plus - Brawl Stars<br>1 saison</h5><br>
                             <p class="card-text">Débloquez un brawler et plus de progression, Skins + Cosmétiques, Chromas + Titre, Avantages du pass, Gemmes + Blings !</p><br>
                             <h5><s>11,99€</s> - 9,99€</h5>
-                            <a href="../products/supercell/brawl-stars-pass-plus.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-brawl-stars-pass-plus.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass Brawl - Brawl Stars<br>1 saison</h5><br>
                             <p class="card-text">Débloquez un brawler et plus de progression,<br>Skins + Cosmétiques, Avantages du pass, Gemmes + blings !</p><br>
                             <h5><s>7,99€</s> - 6,99€</h5>
-                            <a href="../products/supercell/brawl-stars-pass-gold.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-brawl-stars-pass-gold.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Gemmes - Brawl Stars<br>A la demande</h5><br>
                             <p class="card-text">Obtenez des brawlers, skins, cosmétiques exclusifs, avec vos Gemmes !</p><br><br>
                             <h5>De 1,92€ à 100,95€</h5>
-                            <a href="../products/supercell/brawl-stars-ressources.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-brawl-stars-ressources.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Offres Spéciales - Brawl Stars<br>Offre temporaire</h5><br>
                             <p class="card-text">Débloquez n'importe quoi a partir du moment ou c'est disponible sur le Supercell Store !</p><br><br>
                             <h5>Les prix varient !</h5>
-                            <a href="../products/supercell/brawl-stars-offres-spéciales.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-brawl-stars-offres-spéciales.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@ include '../includes/header.php';
     </div>
 
     <div id="Clash-of-Clans" class="category-section">
-        <div style="min-height: 130px;"></div>
+        <div style="min-height: 30px;"></div>
         <div class="container category-content hidden text-center">
             <h2 class="text-start fade-in">Clash of Clans</h2>
     
@@ -137,7 +137,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass Event - Clash of Clans<br>1 Saison</h5><br>
                             <p class="card-text">Profitez d'événements spéciaux et récompenses exclusives et même plus d'EXP et de quêtes !</p><br><br>
                             <h5><s>5,99€</s> - 4,49€</h5>
-                            <a href="../products/supercell/clash-of-clans-pass-evenement.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-clash-of-clans-pass-evenement.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass Gold - Clash of Clans<br>1 Saison</h5><br>
                             <p class="card-text">Débloquez des Héros, skins et cosmétiques exclusifs et même plus d'EXP et de quêtes !</p><br><br>
                             <h5><s>7,99€</s> - 6,49€</h5>
-                            <a href="../products/supercell/clash-of-clans-pass-gold.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-clash-of-clans-pass-gold.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Gemmes - Clash of Clans<br>A la demande</h5><br>
                             <p class="card-text">Débloquez des brawlers, skins et cosmétiques exclusifs et même plus d'EXP et de quêtes !</p><br><br>
                             <h5>1,92€ à 100,95€</h5>
-                            <a href="../products/supercell/brawl-stars-ressources.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-supercell/brawl-stars-ressources.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@ include '../includes/header.php';
     </div>
 
     <div id="Clash-Royale" class="category-section">
-        <div style="min-height: 130px;"></div>
+        <div style="min-height: 30px;"></div>
         <div class="container category-content hidden text-center">
             <h2 class="text-start fade-in">Clash Royale</h2>
     
@@ -181,7 +181,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Pass Diamant - Clash Royale<br>1 Saison</h5><br></h5>
                             <p class="card-text">Débloquez des skins exclusifs et des récompenses uniques !</p><br><br>
                             <h5><s>7,99€</s> - 6,49€</h5>
-                            <a href="../products/supercell/clash-royale-pass-diamant.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-clash-royale-pass-diamant.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +192,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Gemmes - Clash Royale<br>A la demande</h5><br>
                             <p class="card-text">Débloquez des brawlers, skins et cosmétiques exclusifs et même plus d'EXP et de quêtes !</p><br><br>
                             <h5>1,92€ à 100,95€</h5>
-                            <a href="../products/supercell/brawl-stars-ressources.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-brawl-stars-ressources.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +201,7 @@ include '../includes/header.php';
     </div>
 
     <div id="Nintendo" class="category-section">
-        <div style="min-height: 130px;"></div>
+        <div style="min-height: 30px;"></div>
         <div class="container category-content hidden text-center">
             <h1 class="text-center fade-in">Nintendo</h1>
             <hr>
@@ -214,7 +214,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Nintendo Online - Personnel<br>1 Mois</h5><br>
                             <p class="card-text">Débloquez le Nintendo Online pour vous permettre de jouer en ligne pendant 1 mois.</p><br><br>
                             <h5><s>3,99€</s> - 3,20€</h5>
-                            <a href="../products/nintendo/online.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-nintendo-online.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -225,7 +225,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Nintendo Online - Personnel<br>3 Mois</h5><br>
                             <p class="card-text">Débloquez le Nintendo Online pour vous permettre de jouer en ligne pendant 3 mois.</p><br><br>
                             <h5><s>7,99€</s> - 6,50€</h5>
-                            <a href="../products/nintendo/online.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-nintendo-online.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,7 @@ include '../includes/header.php';
                             <h5 class="card-title">Nintendo Online - Personnel<br>1 An</h5><br>
                             <p class="card-text">Débloquez le Nintendo Online pour vous permettre de jouer en ligne pendant 1 an.</p><br><br>
                             <h5><s>19,99€</s> - 14,49€</h5>
-                            <a href="../products/nintendo/online.html" class="btn btn-custom">Voir le produit</a>
+                            <a href="jeux-videos-nintendo-online.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
