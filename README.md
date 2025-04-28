@@ -27,6 +27,10 @@ Pour contribuer ou exécuter le projet localement, suivez ces étapes :
    ```bash
    git clone https://github.com/ThomasLap13/Game-Reduction.git
 
+
+
+
+
 # Guide de Création de Page pour le Site
 
 ## Étape 1 : Récupération du Code Source
