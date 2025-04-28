@@ -16,7 +16,7 @@ include '../includes/header.php';
             </div>
 
             <div class="col-md-6 text-center">
-                <img src="../assets/images/da/pp.png" class="img-fluid w-50 rounded shadow" alt="Notre communauté">
+                <img src="../assets/images/da/PP.png" class="img-fluid w-50 rounded shadow" alt="Notre communauté">
             </div>
 
             <div style="min-height: 20px;"></div>
