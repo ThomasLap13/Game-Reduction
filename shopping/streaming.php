@@ -14,7 +14,18 @@ include '../includes/header.php';
             <hr>
             <h2 class="text-start fade-in">Personnel, Duo, Famille</h2>
             <div class="row justify-content-center">
-                <div class="col-md-4 fade-in hidden">
+                <div class="col-md-4 fade-in hidden mb-4">
+                    <div class="card">
+                        <img src="../assets/images/products/streaming/Spotify.png" class="card-img-top" alt="Produit">
+                        <div class="card-body">
+                            <h5 class="card-title">Spotify Premium - Personnel<br>1 An</h5><br>
+                            <p class="card-text">1 compte Spotify Premium,<br> 12 heures/mois d'écoute pour les livres audio faisant partie du catalogue d'abonnement.<br>Annulez à tout moment.</p>
+                            <h5><s>130€</s> - 29,99€</h5>
+                            <a href="streaming-spotify-personnel.php" class="btn btn-custom">Voir le produit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in hidden mb-4">
                     <div class="card">
                         <img src="../assets/images/products/streaming/Spotify.png" class="card-img-top" alt="Produit">
                         <div class="card-body">
@@ -25,7 +36,7 @@ include '../includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 fade-in hidden">
+                <div class="col-md-4 fade-in hidden mb-4">
                     <div class="card">
                         <img src="../assets/images/products/streaming/Spotify.png" class="card-img-top" alt="Produit">
                         <div class="card-body">
@@ -36,7 +47,7 @@ include '../includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 fade-in hidden">
+                <div class="col-md-4 fade-in hidden mb-4">
                     <div class="card">
                         <img src="../assets/images/products/streaming/Spotify.png" class="card-img-top" alt="Produit">
                         <div class="card-body">
@@ -49,7 +60,7 @@ include '../includes/header.php';
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
     <div id="YouTube" class="category-section">
             <div style="min-height: 30px;"></div>
