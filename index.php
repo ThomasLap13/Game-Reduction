@@ -107,7 +107,7 @@
         </div>
         <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="assets/images/da/Microsoft.DA.jpg" class="card-img-top" alt="Microsoft">
+                <img src="assets/images/da/Microsoft.DA-NEW.jpg" class="card-img-top" alt="Microsoft">
                 <div class="card-body">
                     <h5 class="card-title">Microsoft</h5>
                     <p class="card-text">Bénéficiez d'offres spéciales sur les produits Microsoft.</p>
@@ -117,7 +117,7 @@
         </div>
         <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="assets/images/da/Logiciels.DA.jpg" class="card-img-top" alt="Logiciels">
+                <img src="assets/images/da/Logiciels.DA-NEW.jpg" class="card-img-top" alt="Logiciels">
                 <div class="card-body">
                     <h5 class="card-title">Logiciels</h5>
                     <p class="card-text">Bénéficiez d'offres spéciales sur des Logiciels, type ChatGPT ou d'autre abonnement...</p>

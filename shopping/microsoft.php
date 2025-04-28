@@ -41,7 +41,7 @@ include '../includes/header.php';
                 <!-- Carte pour Clé Office 2024 Pro Plus -->
                 <div class="col-md-4 mb-4 fade-in hidden">
                     <div class="card h-100">
-                        <img src="../assets/images/products/microsoft/cle-office.2024.jpg" class="card-img-top" alt="Produit">
+                        <img src="../assets/images/products/microsoft/cle-office.2024-NEW.jpg" class="card-img-top" alt="Produit">
                         <div class="card-body">
                             <h5 class="card-title">Clé Office 2024 Pro Plus<br>A vie</h5><br>
                             <p class="card-text">Activez Office et accédez aux Fonctionnalités Complètes, Fonctionnalités Complètes, Conformité.</p>
@@ -65,7 +65,7 @@ include '../includes/header.php';
                 <!-- Nouvelle carte pour Windows Server 2025 Datacenter -->
                 <div class="col-md-4 mb-4 fade-in hidden">
                     <div class="card h-100">
-                        <img src="../assets/images/products/microsoft/windows-server-2025.jpg" class="card-img-top" alt="Produit">
+                        <img src="../assets/images/products/microsoft/windows-server-2025-NEW.jpg" class="card-img-top" alt="Produit">
                         <div class="card-body">
                             <h5 class="card-title">Windows Server 2025 Datacenter<br>A vie</h5><br>
                             <p class="card-text">Optimisez votre infrastructure avec des fonctionnalités avancées de sécurité, de virtualisation et de gestion.</p>
