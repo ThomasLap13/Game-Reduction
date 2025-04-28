@@ -26,3 +26,40 @@ Pour contribuer ou exécuter le projet localement, suivez ces étapes :
 1. **Cloner le Dépôt** :
    ```bash
    git clone https://github.com/ThomasLap13/Game-Reduction.git
+
+# Guide de Création de Page pour le Site
+
+## Étape 1 : Récupération du Code Source
+
+Dans un premier temps, il faut récupérer le code source du site ainsi que le dossier `.git`.
+
+## Étape 2 : Création de la Page
+
+1. **Accéder au Dossier `shopping`** :
+   - Rendez-vous dans le dossier `shopping`.
+
+2. **Créer la Nouvelle Page** :
+   - Créez votre page en suivant bien la typologie de base de l'arborescence.
+
+---
+
+## Structure du Fichier
+
+Le fichier doit être structuré de la manière suivante :
+
+```php
+<?php
+include '../includes/header.php';
+?>
+
+<head>
+    <title>Nom du Produit - Game Réduction</title>
+</head>
+
+<main>
+    <!-- Contenu avec les div en respectant un exemple d'une autre page -->
+</main>
+
+<?php
+include '../includes/footer.php';
+?>
