@@ -33,8 +33,20 @@ include '../includes/header.php';
                         <div class="card-body">
                             <h5 class="card-title">Clé Office 2021 Pro Plus<br>A vie</h5><br>
                             <p class="card-text">Activez Office et accédez aux Fonctionnalités Complètes, Fonctionnalités Complètes, Conformité.</p>
-                            <h5><s>579,99€</s> - 14,99€</h5>
+                            <h5><s>579,99€</s> - 12,99€</h5>
                             <a href="microsoft-office-pro-plus.php" class="btn btn-custom">Voir le produit</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carte pour Clé Office 2024 Pro Plus -->
+                <div class="col-md-4 mb-4 fade-in hidden">
+                    <div class="card h-100">
+                        <img src="../assets/images/products/microsoft/cle-office.2024.jpg" class="card-img-top" alt="Produit">
+                        <div class="card-body">
+                            <h5 class="card-title">Clé Office 2024 Pro Plus<br>A vie</h5><br>
+                            <p class="card-text">Activez Office et accédez aux Fonctionnalités Complètes, Fonctionnalités Complètes, Conformité.</p>
+                            <h5><s>579,99€</s> - 14,99€</h5>
+                            <a href="microsoft-office-pro-plus-2024.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
                 </div>
