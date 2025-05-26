@@ -20,7 +20,7 @@ include '../includes/header.php';
                         <div class="card-body">
                             <h5 class="card-title">Nitro Boost - Via connexion<br>1 An</h5><br>
                             <p class="card-text">Les avantages : <br>Qualité Streaming Améliorée, Badge de Profil, Avatars Animés, Upload Augmentée, Boosts de Serveur.</p><br>
-                            <h5><s>99,99€</s> - 44,99€</h5>
+                            <h5><s>99,99€</s> - 54,99€</h5>
                             <a href="discord-nitro-boost.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ include '../includes/header.php';
                         <div class="card-body">
                             <h5 class="card-title">Nitro Boost - Via connexion<br>1 Mois</h5><br>
                             <p class="card-text">Les avantages : <br>Qualité Streaming Améliorée, Badge de Profil, Avatars Animés, Upload Augmentée, Boosts de Serveur.</p><br>
-                            <h5><s>9,99€</s> - 3,99€</h5>
+                            <h5><s>9,99€</s> - 4,99€</h5>
                             <a href="discord-nitro-boost.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ include '../includes/header.php';
                         <div class="card-body">
                             <h5 class="card-title">Nitro Basic - Via connexion<br>1 An</h5><br>
                             <p class="card-text">Les avantages : <br>Qualité Streaming Améliorée, Badge de Profil, Avatars Animés, Upload Augmentée.</p><br>
-                            <h5><s>29,99€</s> - 16,99€</h5>
+                            <h5><s>29,99€</s> - 19,99€</h5>
                             <a href="discord-nitro-basic.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ include '../includes/header.php';
                         <div class="card-body">
                             <h5 class="card-title">Nitro Basic - Via connexion<br>1 Mois</h5><br>
                             <p class="card-text">Les avantages : <br>Qualité Streaming Améliorée, Badge de Profil, Avatars Animés, Upload Augmentée.</p><br>
-                            <h5><s>2,99€</s> - 1,50€</h5>
+                            <h5><s>2,99€</s> - 1,99€</h5>
                             <a href="discord-nitro-basic.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
