@@ -18,6 +18,9 @@
     <meta name="twitter:description" content="Game Réduction est votre allié pour économiser sur vos achats numériques. Offres exclusives, assistance rapide et expérience conviviale.">
     <meta name="twitter:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png"> <!-- Bannière -->
 
+    <!-- Logo (à utiliser dans le header ou favicon) -->
+    <link rel="icon" href="https://game-reduction.fr/assets/images/da/PP.png" type="image/png">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
