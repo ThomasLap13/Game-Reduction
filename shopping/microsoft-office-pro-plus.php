@@ -12,7 +12,7 @@ include '../includes/header.php';
         <h2>Clé Office 2021 Professionnel Plus</h2><hr>
         <img src="../assets/images/products/microsoft/cle-office.png" alt="Clé Office" class="img-fluid rounded mx-auto d-block custom-image-size"><br>
         <p class="text-center">Voici la notice d'installation une fois la clé reçue, toute fois cette dernière sera fournie une nouvelle fois lors de votre commande<br><br>
-            <button class="btn btn-primary" onclick="window.open('../assets/images/notices/Notice_Cle_Office_Game_Reduction.pdf', '_blank')">Ouvrir le PDF</button>
+            <button class="btn btn-primary" onclick="window.open('../documentation/Notice-Cle-Office2021.php', '_blank')">Ouvrir la notice</button>
         </p><br>
         <h2>Les clés Office : Prix et Activation</h2>
         <p>Office est un outil essentiel pour la productivité, offrant de nombreux avantages :</p><br>
