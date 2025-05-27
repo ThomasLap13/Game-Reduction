@@ -60,7 +60,7 @@ include '../includes/header.php';
 
     <h2 class="mt-5">Clé d’activation</h2>
     <p>Saisissez votre clé d’activation Windows Server 2025 qui vous a été fournie dans votre facture.</p>
-    <img src="../assets/images/notices/enter-product-key-windows-server.png" class="card-img-top w-50" alt="Entrer la clé Windows Server">
+    <img src="../assets/images/notices/enter-product-key.png" class="card-img-top w-25" alt="Erreur1">
 
     <h2 class="mt-5">Support</h2>
     <p>
