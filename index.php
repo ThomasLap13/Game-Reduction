@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Accueil - Game Réduction</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/avis.css">
-    <link rel="stylesheet" href="assets/css/tableau.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@450&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/images/da/PP.png" type="image/x-icon">
-
+    
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Game Réduction - Économisez jusqu'à 70% sur vos services préférés">
     <meta property="og:description" content="Game Réduction vous aide à économiser sur vos achats numériques. Profitez de réductions exceptionnelles sur vos logiciels, jeux et abonnements préférés.">
@@ -28,8 +18,17 @@
     <meta name="twitter:description" content="Game Réduction est votre allié pour économiser sur vos achats numériques. Offres exclusives, assistance rapide et expérience conviviale.">
     <meta name="twitter:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png"> <!-- Bannière -->
 
-    <!-- Logo (à utiliser dans le header ou favicon) -->
-    <link rel="icon" href="https://game-reduction.fr/assets/images/da/PP.png" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/avis.css">
+    <link rel="stylesheet" href="assets/css/tableau.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@450&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/da/PP.png" type="image/x-icon">
 </head>
 
 <body>

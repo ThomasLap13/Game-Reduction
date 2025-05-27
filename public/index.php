@@ -9,7 +9,7 @@ include '../includes/header.php';
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Game Réduction - Économisez jusqu'à 70% sur vos services préférés">
     <meta property="og:description" content="Game Réduction vous aide à économiser sur vos achats numériques. Profitez de réductions exceptionnelles sur vos logiciels, jeux et abonnements préférés.">
-    <meta property="og:image" content="https://game-reduction.fr/assets/images/banniere-game-reduction.png"> <!-- Bannière -->
+    <meta property="og:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png"> <!-- Bannière -->
     <meta property="og:url" content="https://game-reduction.fr/">
     <meta property="og:type" content="website">
 
@@ -17,10 +17,7 @@ include '../includes/header.php';
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Game Réduction - Économisez jusqu'à 70% sur vos services préférés">
     <meta name="twitter:description" content="Game Réduction est votre allié pour économiser sur vos achats numériques. Offres exclusives, assistance rapide et expérience conviviale.">
-    <meta name="twitter:image" content="https://game-reduction.fr/assets/images/banniere-game-reduction.png"> <!-- Bannière -->
-
-    <!-- Logo (à utiliser dans le header ou favicon) -->
-    <link rel="icon" href="https://game-reduction.fr/assets/images/da/PP.png" type="image/png">v
+    <meta name="twitter:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png"> <!-- Bannière -->
 </head>
 
 <main>
