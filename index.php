@@ -72,7 +72,7 @@
 <main>
     <div class="welcome-screen" id="welcomeScreen">
         <div>
-            <h1 class="display-4">Bienvenue sur Game Réduction</h1>
+            <h1 class="display-4" style="font-weight: 700;">Bienvenue sur Game Réduction</h1>
             <p class="lead">Économisez jusqu'à <span style="color: #36ae1b;">70%</span> sur vos services préférés</p>
             <button class="btn-custom mt-3" onclick="hideWelcome()">En savoir plus</button>
         </div>
@@ -82,7 +82,7 @@
     </div>
     
     <div class="container mt-5 hidden" id="a-propos">
-        <h2 class="text-center">À propos de nous</h2>
+        <h2 class="text-center"><strong>À propos de nous</strong></h2><hr>
         <p class="text-center">Game Réduction est une initiative visant à vous aider à économiser sur vos achats numériques.</p>
         <p class="text-center">Notre objectif principal est de vous accompagner dans vos achats en ligne afin de vous faire économiser un maximum d'argent. Nous souhaitons offrir une expérience conviviale et accessible à tous, en mettant l’accent sur la qualité et la proximité.</p>
     </div>    
@@ -90,7 +90,7 @@
     <div style="min-height: 200px;"></div>
     
     <div class="container mt-5" id="offres">
-    <h2 class="text-center">Nos Offres</h2>
+    <h2 class="text-center"><strong>Nos Offres</strong></h2>
     <hr>
     <div class="row justify-content-center text-center">
         <div class="col-md-4 mb-4">
@@ -148,9 +148,8 @@
     <div style="min-height: 200px;"></div>
     
     <div class="container mt-5 hidden" id="Avis">
-        <h2 class="text-center">Ce que disent nos clients</h2>
+        <h2 class="text-center"><strong>Ce que disent nos clients</strong></h2><hr>
         <p class="text-center">Découvrez les retours d'expérience de notre communauté satisfaite</p>
-        <hr>
     
         <div class="row justify-content-center">
             <!-- Témoignage 1 -->
