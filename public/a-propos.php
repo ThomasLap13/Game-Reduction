@@ -38,6 +38,28 @@ include '../includes/header.php';
             border-radius: 15px;
             box-shadow: 0 0 20px rgba(0,0,0,0.05);
         }
+
+        .contact-wrapper {
+            background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+            padding: 60px 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+            margin-top: 40px;
+        }
+
+        .don-btn {
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .don-btn:hover {
+            background-color: #218838;
+        }
     </style>
 </head>
 
@@ -88,6 +110,22 @@ include '../includes/header.php';
             </div>
         </section>
     </section>
+
+    <!-- Section Don -->
+    <div class="contact-wrapper text-center">
+        <h2>💚 Soutenez Game Réduction</h2>
+        <hr class="w-25 mx-auto">
+        <p class="lead">
+            Si vous appréciez notre travail et souhaitez nous aider à faire grandir la communauté, vous pouvez nous soutenir en faisant un don.
+        </p>
+        <p>
+            Chaque contribution, même modeste, nous permet de continuer à proposer des services gratuits, des conseils personnalisés et des contenus de qualité.
+        </p>
+        <a href="https://revolut.me/thomas_pro" target="_blank" class="don-btn">
+            Faire un don via Revolut
+        </a>
+        <p class="mt-3"><small>Merci pour votre soutien 🙏</small></p>
+    </div>
 </main>
 
 <?php
