@@ -4,6 +4,30 @@ include '../includes/header.php';
 
 <head>
     <title>Comment commander ? - Game Réduction</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Découvrez comment passer commande sur Game Réduction via Discord ou par email. Simple, rapide et accompagné par notre équipe.">
+    <meta name="keywords" content="Game Réduction, commander, achat, services numériques, Discord, email, support, assistance">
+    <meta name="author" content="Game Réduction">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Comment commander - Game Réduction">
+    <meta property="og:description" content="Commandez facilement vos services numériques via Discord ou par email. Game Réduction vous accompagne à chaque étape.">
+    <meta property="og:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png">
+    <meta property="og:url" content="https://game-reduction.fr/public/comment-commander.php">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comment commander - Game Réduction">
+    <meta name="twitter:description" content="Besoin d'aide pour commander ? Découvrez nos méthodes simples et rapides via Discord ou email.">
+    <meta name="twitter:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://game-reduction.fr/assets/images/da/PP.png" type="image/png">
+
     <style>
         .section-wrapper {
             background: linear-gradient(to bottom right,rgba(255, 255, 255, 0.5),rgba(0, 0, 0, 0.5));
