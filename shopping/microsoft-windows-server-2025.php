@@ -14,7 +14,7 @@ include '../includes/header.php';
         <p class="text-center">
             Découvrez Windows Server 2025 Datacenter, la solution idéale pour les environnements professionnels et les centres de données.
             <br><br>
-            <button class="btn btn-primary" onclick="window.open('../assets/images/notices/Notice_Cle_Windows_Game_Reduction.pdf', '_blank')">Ouvrir le PDF</button>
+            <button class="btn btn-primary" onclick="window.open('../documentation/Notice-Cle-Windows-Server-2025.php', '_blank')">Ouvrir la notice</button>
         </p><br>
         <h2>Pourquoi choisir Windows Server 2025 Datacenter ?</h2>
         <p>Windows Server 2025 Datacenter offre des fonctionnalités avancées pour optimiser la gestion de vos serveurs et améliorer la sécurité et les performances de votre infrastructure.</p>
