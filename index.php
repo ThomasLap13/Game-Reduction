@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Game Réduction - Économisez jusqu'à 70% sur vos services préférés">
     <meta name="twitter:description" content="Game Réduction est votre allié pour économiser sur vos achats numériques. Offres exclusives, assistance rapide et expérience conviviale.">
-    <meta name="twitter:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png"> <!-- Bannière -->
+    <meta name="twitter:image" content="https://game-reduction.fr/assets/images/da/banniere-game-reduction.png"> 
 
     <!-- Logo (à utiliser dans le header ou favicon) -->
     <link rel="icon" href="https://game-reduction.fr/assets/images/da/PP.png" type="image/png">
