@@ -119,6 +119,17 @@ include '../includes/header.php';
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4 fade-in hidden">
+                    <div class="card">
+                        <img src="../assets/images/products/supercell/kaze.png" class="card-img-top" alt="Offres Spéciales">
+                        <div class="card-body">
+                            <h5 class="card-title">Offres Spéciales Kaze - Brawl Stars<br>Offre temporaire</h5><br>
+                            <p class="card-text">Obtenez Kaze avec des Avantages Inédits !</p><br><br>
+                            <h5>49.99€</h5>
+                            <a href="jeux-videos-brawl-stars-kaze.php" class="btn btn-custom">Voir le produit</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
