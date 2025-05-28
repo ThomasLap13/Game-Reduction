@@ -11,7 +11,7 @@ include '../includes/header.php';
         <div style="min-height: 50px;"></div>
         <h2>Offre Exclusive Kaze - Disponible chez Game Réduction !</h2>
         <hr>
-        <img src="../assets/images/products/supercell/Kaze-Offre-Exclusive.png" alt="Offre Exclusive Kaze" class="img-fluid rounded mx-auto d-block custom-image-size"><br>
+        <img src="../assets/images/products/supercell/kaze.png" alt="Offre Exclusive Kaze" class="img-fluid rounded mx-auto d-block custom-image-size"><br>
         <h3>Obtenez Kaze avec des Avantages Inédits !</h3>
         <p>
             Plongez dans l’univers de Brawl Stars avec Kaze, un combattant redoutable aux pouvoirs uniques !<br>Profitez d'une offre exclusive chez Game Réduction pour obtenir Kaze avec des bonus exceptionnels.
