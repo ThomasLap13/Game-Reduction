@@ -118,12 +118,12 @@ include '../includes/header.php';
                     </div>
                     <div class="col-md-4 fade-in hidden">
                         <div class="card">
-                            <img src="../assets/images/products/streaming/YouTube-Premium.png" class="card-img-top" alt="Produit">
+                            <img src="../assets/images/products/streaming/YouTube-Premium-temp.png" class="card-img-top" alt="Produit">
                             <div class="card-body">
                                 <h5 class="card-title">YouTube Premium<br>Gratuit</h5><br>
-                                <p class="card-text">Débloquez YouTube Premium pendant 7 jours, avec pour seul conditions de remplir un document.</p>
+                                <p class="card-text">Débloquez YouTube Premium pendant 7 jours, avec pour seul condition de remplir un document.</p>
                                 <h5><s>12,99€</s> - 0€</h5>
-                                <a href="streaming-youtube-personnel-via-famille-gratuit.php" class="btn btn-custom">Voir le produit</a>
+                                <a href="" class="btn btn-custom">Voir le produit</a>
                             </div>
                         </div>
                     </div>
