@@ -25,7 +25,7 @@ include '../includes/header.php';
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 fade-in hidden mb-4">
+                <!-- <div class="col-md-4 fade-in hidden mb-4">
                     <div class="card">
                         <img src="../assets/images/products/streaming/Spotify.png" class="card-img-top" alt="Produit">
                         <div class="card-body">
@@ -57,12 +57,12 @@ include '../includes/header.php';
                             <a href="streaming-spotify-famille.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
-    <div id="YouTube" class="category-section">
+    <!-- <div id="YouTube" class="category-section">
             <div style="min-height: 30px;"></div>
             <div class="container category-content hidden text-center">
                 <h1 class="text-center fade-in">YouTube</h1>
@@ -129,7 +129,7 @@ include '../includes/header.php';
                     </div>
                 </div>
             </div>
-    </div>  
+    </div>  -->
 
     <div id="Netflix" class="category-section">
             <div style="min-height: 30px;"></div>

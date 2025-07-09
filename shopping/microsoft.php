@@ -51,7 +51,7 @@ include '../includes/header.php';
                     </div>
                 </div>
                 <!-- Carte pour Xbox Game Pass Ultimate -->
-                <div class="col-md-4 mb-4 fade-in hidden">
+                <!-- <div class="col-md-4 mb-4 fade-in hidden">
                     <div class="card h-100">
                         <img src="../assets/images/products/microsoft/game-pass.jpg" class="card-img-top" alt="Produit">
                         <div class="card-body">
@@ -61,7 +61,7 @@ include '../includes/header.php';
                             <a href="microsoft-xbox-game-pass.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Nouvelle carte pour Windows Server 2025 Datacenter -->
                 <div class="col-md-4 mb-4 fade-in hidden">
                     <div class="card h-100">

@@ -57,16 +57,16 @@ include '../includes/header.php';
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-4">
+        <!-- <div class="col-md-4 mb-4">
             <div class="card">
-                <img src="../assets/images/da/Discord.DA.jpg" class="card-img-top" alt="Discord">
+                <img src="assets/images/da/Discord.DA.jpg" class="card-img-top" alt="Discord">
                 <div class="card-body">
                     <h5 class="card-title">Discord</h5>
                     <p class="card-text">Bénéficiez d'offres spéciales sur les produits Discord.</p>
-                    <a href="../shopping/discord.php" class="btn btn-custom">Découvrir</a>
+                    <a href="shopping/discord.php" class="btn btn-custom">Découvrir</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="../assets/images/da/Streaming.DA.jpg" class="card-img-top" alt="Streaming">

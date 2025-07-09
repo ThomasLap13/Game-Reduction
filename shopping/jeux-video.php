@@ -191,7 +191,7 @@ include '../includes/header.php';
                         <div class="card-body">
                             <h5 class="card-title">Pass Diamant - Clash Royale<br>1 Saison</h5><br></h5>
                             <p class="card-text">Débloquez des skins exclusifs et des récompenses uniques !</p><br><br>
-                            <h5><s>7,99€</s> - 6,49€</h5>
+                            <h5><s>14,99€</s> - 11,99€</h5>
                             <a href="jeux-videos-clash-royale-pass-diamant.php" class="btn btn-custom">Voir le produit</a>
                         </div>
                     </div>

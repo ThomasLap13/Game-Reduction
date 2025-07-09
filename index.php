@@ -103,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-4">
+        <!-- <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="assets/images/da/Discord.DA.jpg" class="card-img-top" alt="Discord">
                 <div class="card-body">
@@ -112,7 +112,7 @@
                     <a href="shopping/discord.php" class="btn btn-custom">Découvrir</a>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-4 mb-4">
             <div class="card">
                 <img src="assets/images/da/Streaming.DA.jpg" class="card-img-top" alt="Streaming">
